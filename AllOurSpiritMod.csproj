@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>56d13e03-a850-43cb-94c0-6f0418ee5da4</ProjectGuid>
+    <ProjectGuid>{56D13E03-A850-43CB-94C0-6F0418EE5DA4}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>AllOurSpiritMod</RootNamespace>
@@ -31,24 +31,46 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="System"/>
-    
-    <Reference Include="System.Core"/>
-    <Reference Include="System.Xml.Linq"/>
-    <Reference Include="System.Data.DataSetExtensions"/>
-    
-    
-    <Reference Include="Microsoft.CSharp"/>
-    
-    <Reference Include="System.Data"/>
-    
-    <Reference Include="System.Net.Http"/>
-    
-    <Reference Include="System.Xml"/>
+    <Reference Include="Microsoft.Xna.Framework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TerrariaMods">
+      <HintPath>..\..\..\..\..\..\..\Games\Terraria\TerrariaMods.exe</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="AllOurSpirit.cs" />
+    <Compile Include="Items\bows\AquaniumBow.cs" />
+    <Compile Include="Items\bows\StormBreaker.cs" />
+    <Compile Include="Items\swords\AebisSword.cs" />
+    <Compile Include="Items\swords\DistSword.cs" />
+    <Compile Include="Items\swords\lightness.cs" />
+    <Compile Include="Items\swords\ObsidianKhalis.cs" />
+    <Compile Include="Items\swords\SkywareSword.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="build.txt" />
+    <Content Include="description.txt" />
+    <Content Include="Items\bows\AquaniumBow.png" />
+    <Content Include="Items\bows\StormBreaker.png" />
+    <Content Include="Items\magic\sun_wand.png" />
+    <Content Include="Items\swords\AebisSword.png" />
+    <Content Include="Items\swords\DistSword.png" />
+    <Content Include="Items\swords\Lightness.png" />
+    <Content Include="Items\swords\SkywareWord.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Items\ammo\" />
+    <Folder Include="Items\bars\" />
+    <Folder Include="Items\material\" />
+    <Folder Include="Items\ores\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
- </Project>
+</Project>
