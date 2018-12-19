@@ -10,21 +10,21 @@ namespace AllOurSpiritMod.Items.swords
         public override void SetStaticDefaults()
         {
             DisplayName.SetDefault("Obsidian Arkhalis");
-            Tooltip.SetDefault("Faster like the Arkhalis, but with a deadly edge");
+            Tooltip.SetDefault("Quick as the Arkhalis, but with a deadly edge.");
 
             //Traducciones - translates
 
-            DisplayName.AddTranslation(GameCulture.Spanish, "ModSword");    //Español - Spanish
-            Tooltip.AddTranslation(GameCulture.Spanish, "ModSword");        //Español - Spanish
+            DisplayName.AddTranslation(GameCulture.Spanish, "Arkhalis de Obsidiana");    //Español - Spanish
+            Tooltip.AddTranslation(GameCulture.Spanish, "Rápida como la Arkhalis, pero con un filo mortal.");        //Español - Spanish
         }
 
         public override void SetDefaults()
         {
-            item.damage = 777;
+            item.damage = 50;
             item.melee = true;
             item.width = 128;
             item.height = 128;
-            item.useTime = 7;
+            item.useTime = 24;
             item.useAnimation = 20;
             item.useStyle = 1;
             item.knockBack = 7;
@@ -32,6 +32,7 @@ namespace AllOurSpiritMod.Items.swords
             item.rare = 7;
             item.UseSound = SoundID.Item1;
             item.autoReuse = true;
+        
         }
 
         public override void AddRecipes()
