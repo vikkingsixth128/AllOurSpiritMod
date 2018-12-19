@@ -1,0 +1,4 @@
+author = The Sixth Modders
+version = 1.0
+displayName = The Sixth Mod
+includePDB = true
