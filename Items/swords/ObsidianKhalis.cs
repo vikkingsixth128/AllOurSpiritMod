@@ -20,19 +20,8 @@ namespace AllOurSpiritMod.Items.swords
 
         public override void SetDefaults()
         {
+            item.CloneDefaults(ItemID.Arkhalis);
             item.damage = 50;
-            item.melee = true;
-            item.width = 128;
-            item.height = 128;
-            item.useTime = 24;
-            item.useAnimation = 20;
-            item.useStyle = 1;
-            item.knockBack = 7;
-            item.value = 7;
-            item.rare = 7;
-            item.UseSound = SoundID.Item1;
-            item.autoReuse = true;
-        
         }
 
         public override void AddRecipes()

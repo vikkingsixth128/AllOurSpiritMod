@@ -73,4 +73,7 @@
     <Folder Include="Items\ores\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>"C:\Games\Terraria\tModLoaderServer.exe" -build"$(ProjectDir)\"</PostBuildEvent>
+  </PropertyGroup>
 </Project>

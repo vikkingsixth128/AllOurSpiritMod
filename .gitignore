@@ -2,3 +2,7 @@
 *.cache
 *.cache
 *.cache
+obj/Debug/AllOurSpiritMod.csproj.CoreCompileInputs.cache
+obj/Debug/AllOurSpiritMod.csprojAssemblyReference.cache
+obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+obj/Release/AllOurSpiritMod.csproj.CoreCompileInputs.cache
