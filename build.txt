@@ -1,3 +1,4 @@
+buildignore = *.sln, *.csproj, *.user, obj\*, bin\*, .vs\*, Items\swords\ObsidianKhalis.cs
 author = The Sixth Modders
 version = 1.0
 displayName = The Sixth Mod

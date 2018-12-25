@@ -3,7 +3,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.Localization;
 
-namespace TheSixthMod.Items.swords
+namespace AllOurSpiritMod.Items.swords
 {
 	public class Lightness : ModItem
 	{
@@ -14,7 +14,7 @@ namespace TheSixthMod.Items.swords
 
             //Traducciones - Translates
 
-            DisplayName.AddTranslation(GameCulture.Spanish, "Claridad");                                                                //Español - Spanish
+            DisplayName.AddTranslation(GameCulture.Spanish, "Claridad");    //Español - Spanish
             Tooltip.AddTranslation(GameCulture.Spanish, "[c/808080:La luz y la oscuridad], la [c/FFCD78:bendición] y la [c/8400CC:corrupción], todo eso en una espada");  //Español - Spanish
 
         }
@@ -44,7 +44,7 @@ namespace TheSixthMod.Items.swords
             recipe.AddIngredient(ItemID.LightShard, 10);
             recipe.AddIngredient(ItemID.SoulofLight,15);
             recipe.AddIngredient(ItemID.SoulofNight, 15);
-            recipe.AddRecipeGroup("TheSixthMod:EvilSouls", 15);
+            recipe.AddRecipeGroup("AllOurSpiritMod:EvilSouls", 15);
 			recipe.AddTile(TileID.DemonAltar);
 			recipe.SetResult(this);
 			recipe.AddRecipe();

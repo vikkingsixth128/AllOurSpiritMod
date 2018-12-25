@@ -3,7 +3,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.Localization;
 
-namespace TheSixthMod.Items.bows
+namespace AllOurSpiritMod.Items.bows
 {
     public class StormBreaker : ModItem
     {

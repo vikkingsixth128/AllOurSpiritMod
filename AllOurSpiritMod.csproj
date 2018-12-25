@@ -45,12 +45,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AllOurSpirit.cs" />
+    <Compile Include="AllOurSpiritMod.cs" />
     <Compile Include="Items\bows\AquaniumBow.cs" />
     <Compile Include="Items\bows\StormBreaker.cs" />
     <Compile Include="Items\swords\AebisSword.cs" />
     <Compile Include="Items\swords\DistSword.cs" />
-    <Compile Include="Items\swords\lightness.cs" />
+    <Compile Include="Items\swords\Lightness.cs" />
     <Compile Include="Items\swords\ObsidianKhalis.cs" />
     <Compile Include="Items\swords\SkywareSword.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

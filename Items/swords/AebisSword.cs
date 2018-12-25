@@ -4,7 +4,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.Localization;
 
-namespace TheSixthMod.Items.swords
+namespace AllOurSpiritMod.Items.swords
 {
     public class AebisSword : ModItem
     {
