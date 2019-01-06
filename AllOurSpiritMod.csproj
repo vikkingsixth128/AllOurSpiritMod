@@ -47,11 +47,12 @@
   <ItemGroup>
     <Compile Include="AllOurSpiritMod.cs" />
     <Compile Include="Items\bows\AquaniumBow.cs" />
+    <Compile Include="Items\bows\MidCrossbow.cs" />
     <Compile Include="Items\bows\StormBreaker.cs" />
     <Compile Include="Items\swords\AebisSword.cs" />
     <Compile Include="Items\swords\DistSword.cs" />
     <Compile Include="Items\swords\Lightness.cs" />
-    <Compile Include="Items\swords\ObsidianKhalis.cs" />
+    <Compile Include="Items\swords\ColorSword.cs" />
     <Compile Include="Items\swords\SkywareSword.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -59,12 +60,14 @@
     <Content Include="build.txt" />
     <Content Include="description.txt" />
     <Content Include="Items\bows\AquaniumBow.png" />
+    <Content Include="Items\bows\MidCrossbow.png" />
     <Content Include="Items\bows\StormBreaker.png" />
     <Content Include="Items\magic\sun_wand.png" />
     <Content Include="Items\swords\AebisSword.png" />
+    <Content Include="Items\swords\ColorSword.png" />
     <Content Include="Items\swords\DistSword.png" />
     <Content Include="Items\swords\Lightness.png" />
-    <Content Include="Items\swords\SkywareWord.png" />
+    <Content Include="Items\swords\SkywareSword.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Items\ammo\" />
