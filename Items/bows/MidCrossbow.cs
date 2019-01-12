@@ -3,20 +3,20 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.Localization;
 
-namespace TheSixthMod.Items.bows
+namespace AllOurSpiritMod.Items.bows
 {
-    public class ModBow : ModItem
+    public class MidCrossbow : ModItem
     {
 
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("ModBow");
-            Tooltip.SetDefault("ModBow");
+            DisplayName.SetDefault("Medium-Quality Crossbow");
+            Tooltip.SetDefault("I think I can kill some bosses with this weapon...");
 
             //Traducciones - translates
 
-            DisplayName.AddTranslation(GameCulture.Spanish, "ModBow");  //Español - Spanish
-            Tooltip.AddTranslation(GameCulture.Spanish, "ModBow");      //Español - Spanish
+            DisplayName.AddTranslation(GameCulture.Spanish, "Ballesta de mediana calidad");  //Español - Spanish
+            Tooltip.AddTranslation(GameCulture.Spanish, "Creo que puedo matar algunos jefes con esta arma ...");      //Español - Spanish
         }
 
         public override void SetDefaults()
@@ -24,8 +24,8 @@ namespace TheSixthMod.Items.bows
             item.damage = 50;
             item.noMelee = true;
             item.ranged = true;
-            item.width = 65;
-            item.height = 275;
+            item.width = 50;
+            item.height = 17;
             item.useTime = 30;
             item.useAnimation = 30;
             item.useStyle = 5;

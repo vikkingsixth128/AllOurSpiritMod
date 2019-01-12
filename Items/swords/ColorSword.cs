@@ -25,8 +25,8 @@ namespace AllOurSpiritMod.Items.swords
             item.melee = true;
             item.width = 33;
             item.height = 32;
-            item.useTime = 3;
-            item.useAnimation = 3;
+            item.useTime = 15;
+            item.useAnimation = 15;
             item.reuseDelay = 15;
             item.useStyle = 3;
             item.knockBack = 7;
