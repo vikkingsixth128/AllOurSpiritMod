@@ -32,6 +32,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.Xna.Framework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86" />
+    <Reference Include="Microsoft.Xna.Framework.Game, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -49,10 +50,13 @@
     <Compile Include="Items\bows\AquaniumBow.cs" />
     <Compile Include="Items\bows\MidCrossbow.cs" />
     <Compile Include="Items\bows\StormBreaker.cs" />
+    <Compile Include="Items\pickaxes\MiniuxPickaxe.cs" />
     <Compile Include="Items\swords\AebisSword.cs" />
     <Compile Include="Items\swords\DistSword.cs" />
+    <Compile Include="Items\swords\Heavenly.cs" />
     <Compile Include="Items\swords\Lightness.cs" />
     <Compile Include="Items\swords\ColorSword.cs" />
+    <Compile Include="Items\swords\Shifty.cs" />
     <Compile Include="Items\swords\SkywareSword.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -63,10 +67,13 @@
     <Content Include="Items\bows\MidCrossbow.png" />
     <Content Include="Items\bows\StormBreaker.png" />
     <Content Include="Items\magic\sun_wand.png" />
+    <Content Include="Items\pickaxes\MiniuxPickaxe.png" />
     <Content Include="Items\swords\AebisSword.png" />
     <Content Include="Items\swords\ColorSword.png" />
     <Content Include="Items\swords\DistSword.png" />
+    <Content Include="Items\swords\Heavenly.png" />
     <Content Include="Items\swords\Lightness.png" />
+    <Content Include="Items\swords\Shifty.png" />
     <Content Include="Items\swords\SkywareSword.png" />
   </ItemGroup>
   <ItemGroup>

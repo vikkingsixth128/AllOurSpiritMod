@@ -5,4 +5,7 @@
     <StartProgram>C:\Games\Terraria\TerrariaMods.exe</StartProgram>
     <StartWorkingDirectory>C:\Games\Terraria\</StartWorkingDirectory>
   </PropertyGroup>
+  <PropertyGroup>
+    <ProjectView>ShowAllFiles</ProjectView>
+  </PropertyGroup>
 </Project>

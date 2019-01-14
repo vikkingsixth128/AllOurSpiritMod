@@ -44,7 +44,7 @@ namespace AllOurSpiritMod.Items.swords
             recipe.AddIngredient(ItemID.LightShard, 10);
             recipe.AddIngredient(ItemID.SoulofLight,15);
             recipe.AddIngredient(ItemID.SoulofNight, 15);
-            recipe.AddRecipeGroup("AllOurSpiritMod:EvilSouls", 15);
+            recipe.AddRecipeGroup("AllOurSpiritMod:evilSoul", 15);
 			recipe.AddTile(TileID.DemonAltar);
 			recipe.SetResult(this);
 			recipe.AddRecipe();

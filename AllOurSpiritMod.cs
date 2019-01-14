@@ -28,12 +28,12 @@ namespace AllOurSpiritMod
                 ItemID.Ichor,
                 ItemID.CursedFlame
             });
-            RecipeGroup.RegisterGroup("AllOurSpiritMod:EvilSouls", group);
+            RecipeGroup.RegisterGroup("AllOurSpiritMod:evilSoul", group);
         }
 
         public void SetTranslation()
         {
-            ModTranslation text = CreateTranslation("evilSoul");
+            ModTranslation text = CreateTranslation("AllOurSpiritMod:evilSoul");
             text.SetDefault("Evil-hardmode item");
             text.AddTranslation(GameCulture.Spanish, "Objeto corrupto del modo difícil");
             AddTranslation(text);
